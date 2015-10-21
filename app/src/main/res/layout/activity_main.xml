@@ -1,0 +1,29 @@
+<LinearLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="?attr/actionBarSize"
+        android:background="#565356"
+        android:id="@+id/toolbar"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/list_add"
+        android:id="@+id/add_bt"
+        android:textSize="10pt"
+        android:gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="10dp"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/Todo_List"
+        android:divider="#ff0"
+        android:dividerHeight="0.1dp"/>
+
+</LinearLayout>
